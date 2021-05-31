@@ -1,0 +1,57 @@
+<JFrame
+    title = "My Program"
+    visibility = true
+    default_close_operation = "EXIT_ON_CLOSE"
+    width = 500
+    height = 300
+    layout = "BorderLayout">    
+
+    <JPanel
+        layout_gravity = "north"
+        background = "black"
+        layout = "FlowLayout"
+        alignment = "left">
+
+        <JButton text = "File"/>
+        <JButton text = "Edit"/>
+        <JButton text = "View"/>
+        <JButton text = "Navigate"/>
+        <JButton text = "Code"/>
+
+    </JPanel>
+
+    <JPanel
+        layout_gravity = "center"
+        background = "gray"
+        layout = "GridLayout"
+        rows = 4
+        cols = 2>
+
+        <JLabel text = "name : " tool_tip_text = "txt"/>
+        <JTextField foreground = "red"/>
+        <JLabel text = "age : " tool_tip_text = "txt2"/>
+        <JTextField/>
+        <JLabel text = "height : " foreground = "yellow"/>
+        <JTextField/>
+        <JLabel text = "weight : "/>
+        <JTextField/>
+    </JPanel>
+
+    <JPanel
+
+
+        layout_gravity   =   "west"
+        background = "gray"
+        layout = "GridLayout"
+        rows = 3
+        cols = 1    >
+
+        <JCheckBox
+            text = "Single"
+            selected = true  />
+
+        <JCheckBox text = "Old" foreground = "pink"/>
+        <JCheckBox text = "Owner"/>                    
+    </   JPanel    >
+
+</JFrame>
