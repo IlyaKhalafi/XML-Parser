@@ -96,6 +96,15 @@ public class XmlParser extends Container{
         String standard_element = "";
         Boolean isWhiteSpace = false;
 
+        String s = "";
+        for(int i = 0; i < element.length(); i++) {
+            if( element.charAt(i) == '=' )
+                s += " = ";
+            else
+                s += element.charAt(i);
+        }
+        element = s;
+
         for(int i = 0; i < element.length(); i++) {
 
             if( isWhiteSpace == true && !Character.isWhitespace(element.charAt(i)) ) {
