@@ -116,4 +116,4 @@ GridLayout :
     </JPanel>
 </JFrame>
 
-![] (https://github.com/IlyaKhalafi/XML-Parser/blob/master/examples/output.png)
+![](examples/output.png)
