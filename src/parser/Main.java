@@ -7,10 +7,6 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
-        JFrame frame = parseMML("test.xml");
-    }
-
     public static JFrame parseMML(String fileName) {
         String doc_data = "";
 
