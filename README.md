@@ -2,6 +2,10 @@
 
 Simple XML Parser that parses XML file and make java swing JFrame with supported component.
 
+Just import "Main" class and call "parseMML".
+
+"parseMML" function gets string of the XML file's address and returns a JFrame object.
+
 ## Supported Components
 
 JFrame :
@@ -57,8 +61,8 @@ FlowLayout :
     - right
 
 GridLayout :
-  - cols [Integer] (Necessary)
-  - rows [Integer] (Necessary)
+  - cols [Integer] (For tag itself) (Necessary)
+  - rows [Integer] (For tag itself) (Necessary)
 
 # Example
 
